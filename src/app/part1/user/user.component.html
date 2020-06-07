@@ -1,0 +1,9 @@
+<div class="post">
+  <h2>user id : {{user.userId}}</h2>
+
+  <app-post
+    *ngFor="let post of user.posts"
+    [post]="post"
+  >
+  </app-post>
+</div>

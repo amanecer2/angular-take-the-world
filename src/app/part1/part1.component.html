@@ -1,0 +1,10 @@
+<div>
+  <h1>part 1</h1>
+  <div class="container">
+    <app-user
+      *ngFor="let user of posts$ | async | keyvalue"
+      [user]="user.value"
+    >
+    </app-user>
+  </div>
+</div>

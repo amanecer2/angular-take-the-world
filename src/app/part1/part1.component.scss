@@ -1,0 +1,12 @@
+:host(app-part1) {
+  .container {
+    display: flex;
+    flex-flow: column;
+
+  }
+  .post {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
